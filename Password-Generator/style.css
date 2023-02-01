@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+no effect occur due to this 
+*/
+
+/*  html or body or both  */
+html,body
+ {
+    font-size: 13px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,rgb(0, 0, 0) 30%,rgb(255, 0, 0) 50%,rgb(56, 0, 198) 20%);
+}
+/* background: linear-gradient(90deg, #85ee56 50%, #144dd5 50%)
+    means you can set the degree and no of partition 
+*/
+
+.container {
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #eee;
+    
+    padding: 2rem;
+    min-height: 35rem;
+    box-shadow: 0 0 50px 15px rgba(63, 254, 120, 0.63);
+}
+.title {
+    color: rgba(11, 1, 14, 0.849);
+    font-family: 'Itim', cursive;
+    
+}
+.desc-title {
+    font-size: 20px;
+    background: linear-gradient(120deg,rgb(151, 151, 151) 50%,rgb(16, 198, 0) 50%);
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    width: 71%;
+    border: 1px double grey;
+}
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+label{
+    font-weight: bold;
+}
+
+
+.password {
+    background: black;
+    color: white;
+    padding: 1rem;
+    font-size: 14px;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 30px;
+}
+.btn {
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 50px;
+    background: #31ff0c;
+    margin-left: 3px;
+    font-family: 'Itim', cursive;
+    font-size: 13px;
+    font-weight:bolder;
+    height: 40px;
+    width: 130px;
+    color: rgb(20, 0, 133) ;
+    
+    
+    
+    transition: opacity ease-in 0.4s;
+    
+}
+.btn:hover {
+    opacity: 0.9;
+    color: rgba(17, 0, 255, 0.735);
+}
+.gap{
+    display: flex;
+    flex-direction: row;
+}
