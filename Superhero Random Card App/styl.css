@@ -1,0 +1,119 @@
+*{
+    margin: 4px;
+    padding: 2px;
+    box-sizing:content-box;
+}
+html,body {
+    font-size: 20px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    background-image: linear-gradient(to right, #2c2ea5, #892ca5);
+
+    min-height: 50px;
+    
+}
+.container{
+    border-radius: 20px;
+    margin: 3px;
+    
+    padding: 1px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(90deg, rgba(158,159,64,1) 18%, rgba(235,91,113,1) 43%, rgba(82,177,196,1) 87%);
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    height:auto;
+    box-shadow: 0 0 30px 20px rgba(134, 134, 134, 0.612);
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.img{
+    height:fit-content;
+    border: 1px solid ;
+    border-radius: 30px;
+    border-color: gray;
+    
+    
+}
+.img:hover {
+    width: 165px;
+    height: 245px;
+    transition-duration: 240ms;
+    transition-timing-function: ease-in-out;
+
+  }
+#inf{
+    color: red;
+    font-family: 'Josefin Sans';
+    transition: width 300ms ease-in;
+    transition: opacity 0.2 ease-in-out;
+    border-bottom: dashed green;
+    font-size: 40px;
+    margin-top: 2px;
+
+
+}
+#inf:hover {
+    color: rgba(255, 0, 0, 0.546);
+    
+    transition-duration: 240ms;  
+    transition-timing-function: ease-in-out;
+}
+.company{
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    color: Black;
+    font-size: 20px;
+    font-weight:bolder ;
+    border: 3px solid ;
+    
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.fullname{
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.name{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-family: 'Peralta', cursive;
+    margin-top: 0px;
+
+}
+dl{
+    font-family: 'Lobster', cursive;
+    list-style: circle;
+    color: rgb(255, 244, 43);
+    list-style-type: decimal;
+}
+
+// write code of double line in css ?
